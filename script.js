@@ -65,8 +65,7 @@ function displayCurrentDaySum() {
 
     monthElement.textContent = `${months[currentMonth - 1]}`;
     yearElement.textContent = `${currentYear}`;
-    weekdayElement.textContent = `${weekdays[currentWeekday]}
-    `;
+    weekdayElement.textContent = `${weekdays[currentWeekday]}`;
     resultElement.textContent = `${currentDay}`;
     sumElement.textContent = `${totalSum}`;
 }
