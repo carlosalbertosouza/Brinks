@@ -47,6 +47,21 @@ const yearValues = {
 const fixedNumber1 = 85; // Primeiro número fixo
 const fixedNumber2 = 56; // Segundo número fixo
 
+
+document.getElementById('year').style.display = 'none';
+document.getElementById('month').style.display = 'none';
+document.getElementById('weekday').style.display = 'none';
+document.getElementById('result').style.display = 'none';
+document.getElementById('fixedNumber1').style.display = 'none';
+document.getElementById('fixedNumber2').style.display = 'none';
+
+/*document.getElementById('year').style.display = 'block';
+document.getElementById('month').style.display = 'block';
+document.getElementById('weekday').style.display = 'block';
+document.getElementById('result').style.display = 'block';
+document.getElementById('fixedNumber1').style.display = 'inline-block';
+document.getElementById('fixedNumber2').style.display = 'inline-block';*/
+
 let selectedFixedNumber = fixedNumber1; // Valor fixo inicial
 
 let date = new Date();
