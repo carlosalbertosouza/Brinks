@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient( to bottom,darkblue, blue, lightblue, blue, darkblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-image: url(imagem/mapa_mundijpg-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.61);
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px  black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo geral do nav */
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores */
+    display: flex; /* Exibe os itens horizontalmente */
+    gap: 10px; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza o menu */
+    padding: 10px;
+    margin: 10px;
+}
+
+nav li {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:50px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transição suave na cor */
+}
+
+/* Cor do fundo das box */
+
+#green {
+    background-color: darkgreen;
+}
+
+#lilac {
+    background-color: #8d128d;
+}
+
+#blue {
+    background-color: darkblue;
+}
+
+#black {
+    background-color: black;
+}
+
+#pink {
+    background-color: rgb(240, 120, 140);
+}
+
+#brown {
+    background-color: brown ;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#gray {
+    background-color: gray;
+}
+
+#red {
+    background-color: red;
+}
+
+/* Cor inicial para cada palavra */
+
+.green {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.lilac {
+    text-decoration: none;
+    color: #C8A2C8;
+}
+
+.blue {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.black {
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+}
+
+.pink {
+    text-decoration: none;
+    color: pink;
+}
+
+.brown {
+    text-decoration: none;
+    color: rgb(230, 120, 120);
+}
+
+.orange {
+    text-decoration: none;
+    color: rgb(133, 101, 41);
+}
+
+.yellow {
+    text-decoration: none;
+    color: rgb(184, 184, 40);
+}
+
+.gray {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.red {
+    text-decoration: none;
+    color: rgb(238, 119, 119);
+}
+
+
+
+
+/* Cor ao passar o mouse (hover) 
+
+.green:hover li {
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+}
+
+.red:hover {
+    color: darkred;
+}
+
+.blue:hover {
+    color: darkblue;
+}
+*/
+
+
+.two-columns {
+    display: grid; /* Ativa o grid layout */
+    grid-template-columns: 1fr 1fr; /* Duas colunas iguais */
+    gap: 10px; /* Espaçamento entre os itens */
+    max-width: 300px; /* Largura máxima opcional */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilo opcional para os itens */
+.two-columns li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    color: rgba(221, 192, 174, 0.247);
+}
